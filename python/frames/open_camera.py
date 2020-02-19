@@ -14,7 +14,7 @@ while True:
         cv2.destroyAllWindows()
         break
 
-    if(counter%5 == 0):
+    if(counter%30== 0):
         cv2.imwrite(f"center{picture_counter}.jpg",img)
         picture_counter+=1
         counter = 0
