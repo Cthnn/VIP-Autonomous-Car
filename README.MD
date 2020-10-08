@@ -1,0 +1,1 @@
+This repo is an unfinished repo on my Computer Vision, and arduino tests for an autonomous car. Some work is not made public in this repository because it is still being worked on. Updates will be made once milestones have been achieved
