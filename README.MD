@@ -1,4 +1,5 @@
 This repo is an unfinished repo on my Computer Vision, and arduino tests for an autonomous car. Some work is not made public in this repository because it is still being worked on. 
+
 #What is this repository?
 This is a repository for work that I'm doing for a program at Stony Brook University. This program is called VIP(Vertically Integrated Projects). In this program, students work on projects in which they attempt to push the boundaries of their knowledge. For my project I am working under Professor Anurag Purwar, a Mechanical Engineering professor at Stony Brook. This project focuses on Computer Vision theory and Machine Learning. Some of the ideas implemented are lane segmentation, data augmentation, perspective warping, and neural networks.(Neural network is not made public in this repository)
 #Arduino Files
