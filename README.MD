@@ -14,9 +14,11 @@ This is a repository for work that I'm doing for a program at Stony Brook Univer
    * A lane detection script.Using OpenCV's canny edge detector to find lines in the lane
  * segment.py
    * A module to segment the image to focus on a specific section of the road. Since the data has so much irrelevant data, we determined which segment provides the most important info.
- * netowrk.py
+ * network.py
    * A prototype of the neural network base off of NVIDIA's End to End machine learning report. Some changes have been made to fit our goal a bit better
  * steering_edited.py
-   * A prototype of the road angle calculation script. This uses our new lane segmentation method of converting the colorscale of the image to hsv, then to grayscale inorder to focus make the grayscale image have mainly the image of the road and a mostly black background. We then converted the image to a birds eye view image by shrinking the width of the bottom of the image and applied our min/max angle algorithm.
+   * A prototype of the road angle calculation script. This uses our new lane segmentation method of converting the colorscale of the image to hsv, then to grayscale inorder to focus make the grayscale image have mainly the image of the road and a mostly black background. We then converted the image to a birds eye view image by shrinking the width of the bottom of the image and applied our min/max angle algorithm. Written with teammates Gautham Botlaguduru and Ziyun Ye.
+ * angle_extraction.py 
+    * This script is a more formalized version of angle calculation. organized with helper methods for lane segmentation and variables to define the region of interest trapezoid. This script is used to calculate the angle of the road to annotate the data. This script builds on the knowledge learned from steering_edited.py. This algorithim also attempts to improve at finding corners of contours by using the image corners to find the contour corners using a euclidean distance function. This produces more accurate corner points for our drawn contours which in return gives a better calculation of the road angle. Written by Ethan Cheung
 
   
